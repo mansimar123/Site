@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: none;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #333;
+}
+.wrapper .button:nth-child(3) span{
+  color: #1DA1F2;
+}
+
+    </style>
+</head>
+<body>
+
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <a href="index.html"><img src="https://www.linkpicture.com/q/Logo_9-removebg-preview.png" alt="Logo" height="100px" width="100px"></a>
+        <span class="ml-3 text-xl">Mansimar Singh</span>
+      </a>
+      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+        <a href="Write-ups-main.html" class="mr-5 hover:text-gray-900">Write-ups</a>
+        <a href="mailto: mansimar123.rkl@gmail.com" class="mr-5 hover:text-gray-900">Mail me</a>
+      </nav>
+    </div>
+  </header>
+
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-col">
+          <div class="lg:w-4/6 mx-auto">
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img alt="content" class="object-cover object-center h-full w-full" src="https://images.unsplash.com/photo-1486693128850-a77436e7ba3c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=500">
+            </div>
+            <div class="flex flex-col sm:flex-row mt-10">
+              <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                  <img src="https://i.ibb.co/yhQtDx1/Image-Editor-1-modified.png" alt="Author's Image">
+                </div>
+                <div class="flex flex-col items-center text-center justify-center">
+                  <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">Mansimar Singh</h2>
+                  <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                  <p class="text-base">I am a student of Chartered Accountancy in India. Besides, I am a Writer, Poet, 
+                    Non-Fiction Reader, Foodie, Cook of an above average proficiency, a lover, a front-end development enthusiast (as I haven't explored the domain of back-end yet.), and a Cinema Enthusiast having a strong inclination towards reviewing them.
+                    Well, my toxic trait is that I'm deluded into thinking that I'm entitled to good movies only.
+                  </p>
+                </div>
+              </div>
+              <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                <p class="leading-relaxed text-lg mb-4">
+                    I tend to post unbiased reviews of time-tested classic movies (spare the language, I watch them all, from hindi to swedish). The new ones are also gonna be reviewed, 
+                    but the ones worth watching shall be prioritised.
+                </p>
+                <a href="Write-ups-main.html" target="_self" class="text-indigo-500 inline-flex items-center"> Straight to the write-ups (blog posts).
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="wrapper">
+        <div class="button">
+           <div class="icon">
+              <i class="fab fa-instagram"></i>
+           </div>
+           <a href="https://www.instagram.com/_.mansimar_singh_2612._/"><span>Instagram</span></a>
+        </div>
+        <div class="button">
+           <div class="icon">
+              <i class="fab fa-github"></i>
+           </div>
+           <a href="https://github.com/mansimar123"><span>Github</span></a>
+        </div>
+        <div class="button">
+           <div class="icon">
+              <i class="fab fa-linkedin"></i>
+           </div>
+           <a href="https://www.linkedin.com/in/mansimar-singh-56820316a/"><span>Linkedin</span></a>
+        </div>
+     </div>
+
+      <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <a href="index.html"><img src="https://www.linkpicture.com/q/Logo_9-removebg-preview.png" alt="Logo" height="100px" width="100px"></a>
+            <span class="ml-3 text-xl">Mansimar Singh</span>
+          </a>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            
+            </a>
+          </span>
+        </div>
+      </footer>
+</body>
+</html>
